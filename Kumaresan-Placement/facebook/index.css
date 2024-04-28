@@ -1,0 +1,110 @@
+.container{
+    background-color: rgb(255 255 255 0) ;
+}
+.header-box{
+    background-color: rgb(22, 22, 150);
+    height: 75px;
+}
+.project-title{
+    font-family: Helvetica, Arial, sans-serif;
+    color : #fff;
+    font-weight : bold;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+    margin-left : 10%;
+}
+.email-section{
+    margin-left : 60%;
+    margin-top : -1.7%;
+    font-size: smaller;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.checkbox-message{
+    margin-left:2.9%;
+    margin-top: -3%;
+    
+}
+.e1,.p1{
+    width:17%;
+}
+.password-section{
+    margin-left : 72%;
+    margin-top : -3.5%;
+    font-size: smaller;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.button1{
+    margin-left : 85%;
+    margin-top : -2.4%;
+}
+.content-left .content-message{
+    margin-top:3%;
+    margin-left:7%;
+    color: rgb(4, 4, 117);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+}
+.content-img img{
+    height : 40%;
+    width : 40%;
+    margin-top : 3%;
+    margin-left : 5%;
+}
+.user-form .fn,.ln,.em,.re-e,.password{
+    border-radius: 20px;
+    height : 20px;
+    width : 150px;
+    border : inset ;
+    margin-top: 1%;
+}
+.gender .female{
+    margin-left : 4.5%;
+    margin-top : -2%;
+  
+}
+.content-right{
+    margin-left:50%;
+    margin-top : -22%;
+}
+.content-header{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right-content-header .content-message{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top : 2%;
+}
+.user-form .last-name{
+    margin-left : 22%;
+    margin-top:-4.4%;
+}
+.user-form{
+    margin-top: 10%;
+}
+.user-form .em,.re-e,.password{
+    width : 42%;
+}
+.user-form .birthday-message{
+    color: rgb(4, 4, 117);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    margin-top: 2%;
+}
+.user-form .date,.gender{
+    margin-top: 1%;
+    font-size: smaller;
+    color : rgb(4, 4, 117);
+    font-weight: bold;
+}
+.terms{
+    color :  rgb(4, 4, 117);
+    font-size: smaller;
+    padding-top : 10px;
+}
+

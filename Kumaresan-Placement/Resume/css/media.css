@@ -1,0 +1,25 @@
+@media screen and (max-width:768px){
+    .career-objective .heading{
+        margin-left : 11%;
+        }
+        .heading-para{
+            margin-left : 30%;
+            width : 52%;
+            
+
+        }
+        .contact{
+            margin-top : -1%;
+        }
+        .certifications-and-projects{
+            margin-top : 2%;
+            width:100%;
+        }
+        .soft-skills{
+            margin-left:5%;
+        }
+        .certifications-and-projects .description,.test-data{
+            width:100%;
+        }
+
+}

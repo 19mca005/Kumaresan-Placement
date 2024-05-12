@@ -1,0 +1,81 @@
+html
+{
+  background-color: #000;
+}
+.blog-container{
+  background-color: #1a1818be;
+  height:100px;
+  position: fixed;
+  width : 100%;
+}
+.welcome{
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding-left : 10%;
+  padding-top: 5%;
+}
+.menus-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 170%;
+  margin-top : -14%;
+  gap:25px;
+  line-height: 100px;
+  
+}
+.menus-container .menu:hover{
+background-color: #2196f3;
+
+
+}
+.menu a{
+  text-decoration: none;
+  color: #fff;
+}
+.blog-menus{
+  position:fixed;
+}
+.left-nav-bar{
+  background-color: #222222d6;
+  margin-top: 6.5%;
+  margin-left:2%;
+  width:25%;
+  height:500px;
+  color:white;
+  position: fixed;
+ 
+}
+.image-box img{
+  margin-left:80px;
+  margin-top : 100px;  
+  
+}
+.name-box{
+  background-color: #2c2c2cd9;
+  height:148px;
+  width:100%;
+  bottom:1px;
+  position:absolute;
+}
+.name-box .name{
+  padding:50px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  padding-left:13%;
+  padding-top: 30x;
+  width:100%;
+}
+.position position{
+  color: #2196f3;
+}
+.position{
+  margin-top : -10%;
+  padding-left: 71px;
+  font-family: 'Roboto', sans-serif;
+}
+.left{
+  overflow-y:scroll ;
+  scroll-behavior: smooth;
+}

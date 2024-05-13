@@ -3,23 +3,71 @@
         margin-left : 11%;
         }
         .heading-para{
-            margin-left : 30%;
+            margin-left : 31%;
             width : 52%;
-            
-
         }
         .contact{
             margin-top : -1%;
         }
+        .contact .email{
+            margin-top:-2%;
+        }
         .certifications-and-projects{
             margin-top : 2%;
-            width:100%;
+            width:140%;
         }
         .soft-skills{
-            margin-left:5%;
+            margin-left:-15%;
+            margin-top:-3.2%;
+            width:40%;
         }
         .certifications-and-projects .description,.test-data{
-            width:100%;
+            width:70%;
         }
-
+        .tests .tests-points{
+            width:70%;
+        }
+        .certifications-and-projects .tech-stack{
+            width:70%;
+        }
+        .hard-skills{
+            margin-top: 25%;
+            margin-left:-21%;
+            
+        }
+        .hard-skills .hard-skills-points{
+            width:75%;
+            margin-left: -8%;
+        }
+        .implementation{
+            width:115%;
+        }
+        .next-page{
+            width:65%;
+        }
+        .next-page .description{
+            width:85%;
+            text-align: justify;
+        }
+        .next-page .implementation-2 .imp-2-points{
+            width:180%;
+            text-align: justify;
+        }
+        .next-page .dependency-info{
+            width:90%;
+        }
+        .education .edu-points{
+            margin-left:-0.7%;
+        }
+        .declaration{
+            margin-top: -5%;
+        }
+        .declaration .statement{
+            width:90%;
+        }
+        .footer-right .name{
+            margin-left: 85%;
+            margin-top: -7%;
+            width:50%;
+        }
 }

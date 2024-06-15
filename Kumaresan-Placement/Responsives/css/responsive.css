@@ -1,0 +1,26 @@
+@media screen and (max-width:768px){
+html
+{
+  background-color: #000;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  
+}  
+.menus-container{
+    margin-left: 50%;
+}
+.menus-container .menu:hover{
+    background-color: #2196f3;
+}
+.left-nav-bar{
+    background-color: #222222d6;
+    color:white;
+    width:525px;
+    margin-top:13%;
+    margin-left:15%;
+  }
+  .content-box{
+    margin-top:80%; 
+    position: relative;   
+  }
+}

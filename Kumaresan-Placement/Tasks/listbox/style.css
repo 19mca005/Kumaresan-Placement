@@ -1,26 +1,38 @@
-body{
-    background-color: goldenrod;
-    
+body {
+	background-color: goldenrod;
+
 }
-h1{
-    font-style: italic;
-    color: brown;
+
+h1 {
+	font-style: italic;
+	color: brown;
 }
-body div:nth-child(2)
-{
-    font-weight: bold;
-    padding: 30px;
-    color: brown;
+
+body div:nth-child(2) {
+	font-weight: bold;
+	padding: 30px;
+	color: brown;
 }
-.content{
-    height:250px;
-    width:270px;
-    background-color: rgb(156, 156, 130);
-    border-radius: 10%;
-    border:2px solid brown;
-    margin:50px auto;
+
+.content {
+	height: 250px;
+	width: 270px;
+	background-color: rgb(156, 156, 130);
+	border-radius: 10%;
+	border: 2px solid brown;
+	margin: 50px auto;
 }
-.head{
-    color:rgb(108, 108, 86);
-    margin-left: 20%;
+
+.head {
+	color: rgb(108, 108, 86);
+	margin-left: 20%;
+}
+
+.delete {
+	margin-left: 77%;
+	position: absolute;
+	top: 37.4%;
+	right: 41%;
+	width: 5%;
+	text-align: center;
 }

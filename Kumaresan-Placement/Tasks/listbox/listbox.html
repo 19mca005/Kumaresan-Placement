@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <link rel="stylesheet" type="text/css" href="./style.css">
-      <script src="./script.js"></script>
-   </head>
-   <body>
-      <h1 class="head">The value enters in the textbox that shows in the listbox ...</h1>
-      <div class="content">
-         <div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1 class="head">The value enters in the textbox that shows in the list box ...</h1>
+    <div class="content">
+        <div>
             <h1>Enter a value:</h1>
-            <form>
-               <input type="text" id="inputValue">
-               <button onclick="addItem()">submit</button>
+            <form onsubmit="addItem(); return false;">
+                <input type="text" id="inputValue" placeholder="Enter a value">
+                <button type="submit">Submit</button>
             </form>
-         </div>
-         <div>
+        </div>
+        <div>
             <label for="listbox">Data are:-</label>
-            <select id="listbox">
-            </select>
-         </div>
-         <button class="delete" onclick="deleteAll()">Delete All</button>
-      </div>
-   </body>
+            <ul id="listbox" class="listbox">
+                <!-- List items will be added here -->
+            </ul>
+        </div>
+        <button class="delete" onclick="deleteAll()">Delete All</button>
+    </div>
+</body>
 </html>
